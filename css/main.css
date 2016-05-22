@@ -168,6 +168,22 @@ footer {
     margin-top: 30%; }
   footer p {
     font-size: 14px; }
+  footer ul.list-link li {
+    display: inline;
+    list-style: none; }
+    footer ul.list-link li a {
+      font-size: 11px;
+      color: #1f1f1f;
+      text-decoration: none;
+      padding: 0 2px;
+      border-left: 1px solid; }
+      footer ul.list-link li a:hover {
+        color: #1f1f1f; }
+
+.title-principal {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3em; }
 
 .blg {
   margin-top: -500px; }
