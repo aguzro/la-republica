@@ -1,0 +1,152 @@
+.bg-gris{
+	background-color: $grey-header;
+	border-bottom: 1px solid #D7DCE1;
+	.banner{
+		margin-left: 170px;
+		margin-top: 20px;
+	}
+	ul{
+		list-style: none;
+		margin-left: 130px;
+		margin-top: 10px;
+		li{
+			display: inline;
+			font-size: 9px;
+			margin-left: $uno;
+			font-weight: bold;
+			a{
+				color: $gray-dark;
+				text-decoration: none;
+			}
+			a:hover{
+				color: $gray;
+			}
+		}
+	}
+	.btn-primary{
+		background-color: $red-lighter-header;
+		border: 1px solid $red-lighter-header;
+		margin-top: 10px;
+		border-radius: 5px;
+		margin-left: 85px;
+		&:hover{
+			background-color: $burdeo;
+		}
+	}
+	.red-social{
+		font-size: 15px;
+		margin-left: 20px;
+		.fa-facebook{
+			color: $blue-facebook;
+			margin-top: 13px;
+		}
+		.fa-twitter{
+			color: $blue-twitter;
+		}
+		.fa-google-plus{
+			color: $red-google;
+		}
+		.fa-envelope{
+			color: $yellow-email;
+		}
+		.fa-rss{
+			color: $orange-rss;
+		}
+	}
+	.buscar{
+		margin-top: 10px;
+		margin-left: -30px;
+		border-left: 1px solid $color-border;
+		border-right: 1px solid $color-border;
+		padding: 0 10px 0 15px;
+		a{
+			color: $color-grey;
+			text-decoration: none
+		}
+		a:hover{
+			color: $gray;
+		}
+	}
+}
+.lala{
+	.logo{
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+	h1{
+		padding: 0 10px 0 12px;
+		font-size: 15px;
+		margin-left: 235px;
+		color: $white;
+		font-weight: bold;
+		background-color: $burdeo;
+		border: 1px solid $burdeo;
+		width: 35%;
+	}
+	h3{
+		font-size: 10px;
+		font-weight: bold;
+		border: 1px solid $color-border;
+		border-top: $white;
+		padding: 23px 0 20px 20px;
+		margin-top: -23px;
+		margin-left: 160px;
+		width: 85%;
+		border-bottom: 2px solid $burdeo;
+	}
+	.editorial{
+		margin-top: 20px;
+		margin-left: 108px;
+		border: 7px solid $color-gris;
+		border-radius: 5px;
+	}
+	.algo{
+		position: relative;
+		left: 70px;
+		width: 110%;
+		
+		h2{
+			font-size: 13px;
+			font-weight: bold;
+			border-top: 1px solid $color-border;
+			border-left: 3px solid $color-gris;
+			padding: 10px 0 0 5px;
+			border-radius: 5px;
+		}
+		p{
+			font-size: 11px;
+			border-bottom: 1px solid $color-border;
+			padding: 0 0 10px 10px;
+			border-radius: 5px;
+		}
+	}
+	.author{
+	margin-left: 50px;		
+	margin-top: 20px;
+	}
+	
+}
+.navbar{
+	padding-left: 10px;
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $red;;
+    font-size: 12px;
+	}
+	li {
+    	float: left;
+    	padding: 10px 7px;
+    	border-left: 1px solid $color-gris;
+    	a{
+    		text-decoration: none;
+    		color: white;
+    		font-weight: 200;
+    	}
+    		&:hover{
+    		background-color: $red-lighter;
+    	}
+    }
+}

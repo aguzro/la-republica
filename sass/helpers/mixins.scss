@@ -5,3 +5,30 @@
 		clear: both;
 	}	
 }
+@mixin ul ($list-style, $mar, $pad, $over, $b-color, $font, $b-rad){
+	list-style-type: $list-style;
+	margin: $mar;
+	padding: $pad;
+	overflow: $over;
+	background-color: $b-color;
+	font-size: $font;
+	border-radius: $b-rad;
+}
+@mixin p-h2 ($font-s, $color, $m-top, $m-left){
+	font-size: $font-s;
+	color: $color;
+	margin-top: $m-top;
+	margin-left: $m-left;
+}
+@mixin h1 ($text-a, $font-w, $m-top, $font-s){
+	text-align: $text-a;
+	font-weight: $font-w;
+	margin-top: $m-top;
+	font-size: $font-s;
+}
+@mixin h4 ($m-left, $m-top, $font-s, $font-w){
+	margin-left: $m-left;
+	margin-top: $m-top;
+	font-size: $font-s;
+	font-weight: $font-w;
+}

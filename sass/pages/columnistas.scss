@@ -1,0 +1,112 @@
+.column{
+	margin-top: -500px;
+	h2{
+		margin-left: 20px;
+		color: $black;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	p{
+		margin-left: 20px;
+		color: $gray-blue;
+		font-weight: bold;
+		a{
+			color: $red;
+			text-decoration: none;
+			font-size: 17px;
+
+		}
+	}
+}
+.titulos{
+	border: 2px solid $color-border;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	padding: 10px 10px 20px 10px;
+	p{
+		@include p-h2 (10px, $black, 5px, 50px)
+	}
+	h1{
+		@include h1 (center, bold, -10px, 13px)
+	}
+	.blog{
+		background-color: $grey-header;
+		padding: 30px 10px;
+		.avatar{
+			border: 2px solid $white;
+			margin-top: -10px;
+			width: 30%;
+		}
+		h4{
+			@include h4 (70px, -60px, 12px, bold)
+		}
+		h2{
+			@include p-h2 (12px, $color-grey, -8px, 70px)
+		}
+	}
+}
+.btn-clmn{
+	h2{
+		background-color: $rojo-btn;
+		padding: 10px 0 10px 55px;
+		border-radius: 5px;
+		font-size: 18px;
+		&:hover{
+			background-color: $burdeo;
+		}
+		a{
+			color: $white;
+			text-decoration: none;
+		}
+	}
+}
+.todos{
+	width: 100%;
+	margin-top: 10px;
+	p{
+		margin-left: -0px;
+	}
+	ul{
+		@include ul (none, 0, 0, hidden, $color-rojo, 12px, 0)
+	}
+	li{
+		float: left;
+		padding: 10px 35px;
+		.active{
+			color: white;
+			background-color: $burdeo;
+			padding: 5px;
+			border-radius: 5px;
+		}
+		a{
+			color: $white;
+			text-decoration: none;
+			font-weight: bold;
+			&:hover{
+			background-color: $color-red;
+			border: 3px solid $color-red;
+			border-radius: 5px;
+			}
+		}
+	}			
+}
+.columnistas{
+	background-color: $gray-lighter;
+	padding: 30px 10px;
+	margin-top: 10px;
+	&:hover{
+		background-color: $white;
+		border: 1px solid $gray-lighter;
+	}
+	.avatar{
+		border: 2px solid $white;
+		margin-top: -10px;
+		width: 30%;
+	}
+	h4{
+		@include h4 (70px, -60px, 12px, bold)
+	}
+	h2{
+		@include p-h2 (12px, $color-grey, -8px, 70px)
+	}
+}
