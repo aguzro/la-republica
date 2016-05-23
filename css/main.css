@@ -1,11 +1,11 @@
 .barra {
-  width: 93%;
+  width: 90%;
   margin-left: 81px;
   margin-top: 10px;
   border-radius: 5px; }
   .barra ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: #F4F5F7;
@@ -21,7 +21,7 @@
     padding: 10px 7px; }
     .barra li .bola {
       margin-top: -3px;
-      margin-right: 5px; }
+      margin-right: -1px; }
     .barra li a {
       text-decoration: none;
       color: #333; }
@@ -29,10 +29,10 @@
         color: #86878A; }
   .barra .bann-h {
     margin-top: 10px;
-    width: 100%; }
+    max-width: 90%; }
 
 .publicidad-2 {
-  margin-left: -7px; }
+  margin-left: 1px; }
 
 .bg-gris {
   background-color: #F4F5F7;
@@ -184,6 +184,99 @@ footer {
   text-align: center;
   font-weight: 700;
   font-size: 3em; }
+
+.social-icons {
+  margin: 0 auto;
+  padding: 5% 0; }
+  .social-icons p {
+    display: inline; }
+  .social-icons img {
+    margin: 0 1%; }
+
+.contenedor-general {
+  box-sizing: border-box;
+  padding: 2%; }
+
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: 0.75rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.125); }
+  .card .card-inverse {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff; }
+  .card .card-img {
+    border-radius: 0.25rem; }
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem; }
+
+.card-text {
+  font-size: 1.5em;
+  font-weight: 500; }
+  .card-text.card-text-bottom {
+    margin-top: 35rem; }
+
+.card-block {
+  text-align: center;
+  max-width: 241px; }
+  .card-block:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .card-block img {
+    max-width: 241px; }
+
+.slide {
+  background: #E3E3E3;
+  text-align: center; }
+
+.publicidad-aside {
+  max-width: 100%; }
+
+.row-news {
+  padding: 15px 0 10px;
+  border-bottom: 1px solid #cdcdcd;
+  height: auto;
+  overflow: hidden; }
+  .row-news .date {
+    display: block;
+    margin: 0 0 5px;
+    color: #768696;
+    font-size: 12px; }
+  .row-news .photo {
+    float: left;
+    margin: 0 10px 0 0; }
+    .row-news .photo img {
+      width: 200px;
+      height: 120px;
+      display: inline; }
+
+.boletin {
+  background-image: url "image/trama_square";
+  background-repeat: repeat left top;
+  padding: 2.5em .5em .8em .5em;
+  margin: 0 0 30px; }
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px; }
 
 .blg {
   margin-top: -500px; }
